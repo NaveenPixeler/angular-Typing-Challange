@@ -1,0 +1,27 @@
+p {
+  font-family: Lato;
+}
+
+h2 {
+  color: blue;
+}
+
+.typing-practice {
+  width: 250px;
+  height: 200px;
+  border: 2px solid;
+  margin:0 auto;
+  text-align: center;
+}
+
+.pending {
+  color: grey;
+}
+
+.correct {
+  color: lightgreen;
+}
+
+.incorrect {
+  color: red;
+}

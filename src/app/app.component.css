@@ -25,3 +25,7 @@ h2 {
 .incorrect {
   color: red;
 }
+
+.success {
+  color: green;
+}

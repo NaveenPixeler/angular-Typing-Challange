@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
   randomSentence = '';
   enteredText = '';
   makeRandomSentence() {
@@ -17,7 +16,8 @@ export class AppComponent  {
     for (var i = 0; i < 15; i++){
 
       if (i === 5 || i === 10) {
-        text += "\xa0" ;
+        text += " ";
+        // text += "\xa0" ;
       }
       text += possible.charAt(Math.floor(Math.random() * possible.length));
 
